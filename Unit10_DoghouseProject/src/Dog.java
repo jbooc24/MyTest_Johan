@@ -5,6 +5,21 @@ public class Dog
 	private boolean sleeping = false;
 	private String name = "Ace";
 	
+	//default constructor
+		//returnType is omitted
+	public Dog() {
+		
+	}
+	
+	public Dog(String n) {
+		this.name=n;
+	}
+	public Dog(boolean sleeping, String n) {
+		this.sleeping = sleeping;
+		this.name = n;
+	}
+	
+	
 	public String getName()
 	{
 		
